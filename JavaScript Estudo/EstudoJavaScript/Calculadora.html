@@ -1,0 +1,50 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+   
+</head>
+<body>
+    <div>
+        <label>Valor1</label>
+        <input id="txtValor1" />
+    </div>
+    <div>
+        <label>Valor2</label>
+        <input id="txtValor2" />
+    </div>
+    <div>
+
+        <div id="txtResultado">Resultado: 0</div>
+    </div>
+    <button id="btnSomar" onclick="calcular('+')">Somar</button>
+    <button id="btnDimiur" onclick="calcular('-')">Diminuir</button>
+    <button id="btnMultiplicar" onclick="calcular('*')">Multiplicar</button>
+    <button id="btnDividir" onclick="calcular('/')">Dividir</button>
+    <button id="btnElevado" onclick="calcular('**')">Elevado</button>
+
+
+</body>
+</html>
+<script>
+    function calcular(operacao) {
+        var valor1 = parseFloat(document.getElementById("txtValor1").value);
+        var valor2 = parseFloat(document.getElementById("txtValor2").value);
+        var resultado = 0;
+        if (operacao == "+") {
+            resultado = valor1 + valor2;
+        } else if (operacao == "-") {
+            resultado = valor1 - valor2;
+        } else if (operacao == "*") {
+            resultado = valor1 * valor2;
+        } else if (operacao == "/") {
+            resultado = valor1 / valor2;
+        }
+        else if (operacao == "**") {
+            resultado = valor1 ** valor2;
+        }
+        document.getElementById("txtResultado").innerHTML = "Resultado: " + resultado;
+        console.log(resultado)
+    }
+</script>
+
+
