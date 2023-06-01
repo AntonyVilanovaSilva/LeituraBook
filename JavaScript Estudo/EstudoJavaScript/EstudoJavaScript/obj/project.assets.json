@@ -16,11 +16,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\android.LABFIES\\Documents\\GitHub\\JavaScript Estudo\\EstudoJavaScript\\EstudoJavaScript\\EstudoJavaScript.csproj",
+      "projectUniqueName": "C:\\Users\\android.LABFIES\\Documents\\LeituraBook\\JavaScript Estudo\\EstudoJavaScript\\EstudoJavaScript\\EstudoJavaScript.csproj",
       "projectName": "EstudoJavaScript",
-      "projectPath": "C:\\Users\\android.LABFIES\\Documents\\GitHub\\JavaScript Estudo\\EstudoJavaScript\\EstudoJavaScript\\EstudoJavaScript.csproj",
+      "projectPath": "C:\\Users\\android.LABFIES\\Documents\\LeituraBook\\JavaScript Estudo\\EstudoJavaScript\\EstudoJavaScript\\EstudoJavaScript.csproj",
       "packagesPath": "C:\\Users\\android.LABFIES\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\android.LABFIES\\Documents\\GitHub\\JavaScript Estudo\\EstudoJavaScript\\EstudoJavaScript\\obj\\",
+      "outputPath": "C:\\Users\\android.LABFIES\\Documents\\LeituraBook\\JavaScript Estudo\\EstudoJavaScript\\EstudoJavaScript\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

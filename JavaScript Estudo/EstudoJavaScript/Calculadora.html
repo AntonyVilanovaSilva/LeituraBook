@@ -3,7 +3,26 @@
     <title></title>
    
 </head>
+<style>
+    .fundoVermelho {
+        background-color: darkgreen;
+        color: azure;
+        front-size: 10px;
+    }
+    .fundoVerde {
+        background-color: darkgreen;
+        color: azure;
+        front-size: 10px;
+    }
+    .ocultar{
+        display: none;
+    }
+    .exibir{
+        display:block;
+    }
+</style>
 <body>
+    <div><h2>Calculadora</h2></div>
     <div>
         <label>Valor1</label>
         <input id="txtValor1" />
@@ -45,6 +64,28 @@
         document.getElementById("txtResultado").innerHTML = "Resultado: " + resultado;
         console.log(resultado)
     }
+
+    if (resultado > 100) {
+        document.getElementById("txtResultado").className = 'fundoVerde';
+    }
+    else
+    {
+        document.getElementById("txtResultado").className = 'fundoVermelho';
+    }
+    document.getElementById("mensagemResultado").innerHTML = "Resultado Calculado com Sucesso";
+    document.getElementById("mensagemResultado").style.color = "#32CD32";
+    document.getElementById("mensagemResultado").className = "ocultar";
+    document.getElementById("mensagemResultado").className = "exibir";
+
+    function reinciando() {
+        console.log("entrou");
+
+        document.getElementById("buttons").className = 'exibir';
+        document.getElementById("reiniciar").className = 'ocultar';
+    }
+
+    reinciando();
+
 </script>
 
 
